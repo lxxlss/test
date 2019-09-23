@@ -1,0 +1,49 @@
+*{margin: 0px; padding:0px; list-style-type: none; text-decoration: none;}
+html{width:100%;
+ background: url(../img/bg.png) no-repeat;
+ background-size: cover;
+ }
+header {width:100%; padding:10px 10%;}
+header img{width: 50px; height:50px; margin-right:10px; vertical-align: middle;}
+header{font-size:40px; letter-spacing:2px; color: #fff; font-family: "宋体"; line-height:50px;
+ height:50px;}
+.main{width:100%; height:530px; position: relative;}
+.oc{ position: absolute; 
+   bottom:20px; right:40px;
+width:400px; height:400px; background-color: rgba(138,191,238,0.4);
+border-radius: 20px;  border:1px solid #9ec9ea;}
+h1{padding-top:20px;margin-right:10%; color: #FFFFFF;}
+h1 span:nth-child(1){color: #d1e4f5; font-size:30px;  font-family: "宋体"; margin-left:10%;}
+h1 span:nth-child(2){float: right;}
+ul {display: flex; padding:10px 10%;color: #FFFFFF; }
+ul  li {height:40px; line-height:40px; width:33%; height:24px;}
+ul  li img{vertical-align: middle; margin-right:10px; width:30px; height:30px;}
+ul  li:hover{cursor: pointer;}
+.once1{display: block; width:80%; margin: auto; margin-top:10px;  height: 250px; }
+.once1 {margin-top: 20px;}
+.once1 form dl{width:100%;display: flex; color: #abd0f3; margin-top:20px;}
+.once1 form dl dt{width: 20%;}
+.once1 form dl dd{width: 80%;}
+.once1 form dl dd input{height:30px; width: 90%; background: #cddcf1; border:1px solid #888;}
+.registerBtn{ padding:20px 0px;height:40px; line-height:40px; width: 60% ;
+margin: auto;}
+.registerBtn button{width:100%; height:100%; border:0px; background: #2989dd;  font-size:24px; color: #D1E4F5;
+ font-family: "宋体";}
+.dsi{  width:100%;margin: auto;}
+.once1:nth-child(2),.once1:nth-child(3){margin-top: 30px;}
+.once1:nth-child(2) p,.once1:nth-child(3) p {margin: auto; text-align: center;}
+.once1:nth-child(2) img,.once1:nth-child(3) img{width:50%;}
+.once1:nth-child(2) h3,.once1:nth-child(3) h3{font-weight: normal; font-size:14px; color: #333; text-align: center;
+  margin-top: 20px;}
+  .oc2{width:100%; position: static; height:560px;background-color: rgba(138,191,238,0.8);}
+.once1{position: relative;}
+.dsi{position: absolute; bottom:10px; left:20%; color: #D1E4F5;;}
+.dsi span{margin-right: 10px;}
+.dsi input{margin-right:10px;}
+.s{padding:1px 20px; border:1px solid #eee; height: 10px; margin-left:10px;}
+  .oc2  .once1:nth-child(2) img,    .oc2 .once1:nth-child(3) img{width: 30%;}
+.oc2 .dsi{position: absolute; bottom:10px; left:40%; color: #D1E4F5;;}
+.oc2  .once1{display: block; width:80%; margin: auto; margin-top:10px;  height: 450px; }
+.oc2  .once1 form dl dt{width: 10%; font-size:20px;}
+.oc2  .once1 form dl dd{width: 90%;}
+.oc2  .once1 form dl dd input{height:40px; width: 90%; background: #cddcf1; border:1px solid #888;}
